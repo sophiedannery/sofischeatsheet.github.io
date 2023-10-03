@@ -1,0 +1,311 @@
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* logo */
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* links */
+
+.alllinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+}
+.link{
+    display: inline-block;
+    height: 60px;
+    width: 250px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.titrelink{
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px;
+    background: linear-gradient(to right, #E0ACEE, #FEC045);
+    font-weight: bold;
+    font-size: 30px;
+    transition: .1s ease-out;
+}
+
+.titrelink:hover{
+    font-size: 20px;
+}
+
+
+
+/* bouton pour remonter */
+
+/* .upbtn{
+    position: fixed;
+    right: 0;
+    top: 55%;
+} */
+
+.upbtn img{
+    width: 27px;
+    transition: 0.1s;
+    position: fixed;
+    right: 0;
+    top: 25%;
+}
+
+.upbtn img:hover{
+    width: 30px;
+}
+
+.upbtn a #sidehtml{
+    position: fixed;
+    right: 0;
+    top: 31%;
+}
+
+.upbtn a #sidecss{
+    position: fixed;
+    right: 0;
+    top: 45%;
+}
+.upbtn a #sidejvs{
+    position: fixed;
+    right: 0;
+    top: 56%;
+}
+
+.upbtn .titrelink{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.upbtn .titrelink:hover{
+    font-size: 16px;
+}
+
+
+
+/* banner intro image */
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#banner img{
+    width: 10px;
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+
+#banner .bannertext{
+    flex-basis: 50%;
+}
+
+.bannertext{
+    max-width: 400px;
+    margin-right: 100px;
+    margin-top: 60px;
+    text-align: right;
+}
+
+.bannertext h1{
+    font-size: 34px;
+}
+
+.bannertext p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777
+}
+
+
+.btn{
+    padding: 18px 40px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #E0ACEE;
+    font-weight: bold;
+}
+
+/* titre chapitre */
+
+
+.chaptertitle{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:center;
+}
+
+.chaptertitle img{
+    display: none;
+    height: 50px;
+    width: auto;
+}
+
+.chaptertitle h1{
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+
+/* sommaire */
+
+.grandtitlesommaire{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.allsommaire{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.sommaire{
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.titlesommaire{
+    border: 2px solid #E0ACEE;
+    border-radius: 6px;
+    color: black;
+    padding: 15px;
+    font-weight: lighter;
+    font-size: 18px;
+    transition: .4s ease-out;
+}
+
+.titlesommaire:hover{
+    background: linear-gradient(to right, #E0ACEE, #FEC045);
+}
+
+
+/* paragraphe */
+
+.paragraphe{
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.titleparagraphe{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/* tableau */
+
+table{
+    border: 2px solid #E0ACEE;
+    width: 350px;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+thead{
+    background-color: #fec045a8;
+}
+
+th{
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 10px;
+}
+td{
+    border-top: 1px solid #c05cdb;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.code{
+    font-family: monospace;
+    background-color: #e0acee41;
+    text-align: center;
+}
+
+
+
+
+
+
+h3{
+    color: #777;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.parahowto{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+    border: 1px solid #FEC045;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.codeline{
+    font-family: monospace;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.349)
+}
+
+.answerhowto{
+    background-color: #fec04544;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.questionhowto{
+    text-align: center;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
